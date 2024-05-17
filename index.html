@@ -122,6 +122,7 @@
     </div>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
+            Telegram.WebApp.expand();
             // Создаем массив путей к изображениям карт
             const cardImages = Array.from({length: 77}, (_, i) => `card/card${i + 1}.jpg`);
             const selectedCards = [];
